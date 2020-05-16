@@ -1,5 +1,3 @@
-import 'dart:developer';
-
 import 'package:flutter/material.dart';
 class Location extends StatefulWidget {
   @override
@@ -8,16 +6,12 @@ class Location extends StatefulWidget {
 
 class _LocationState extends State<Location> {
   @override
-  void initState(){
-    super.initState();
-    print('Init method');
-  }
+ 
   int counter = 0;
 
   @override
   Widget build(BuildContext context) {
-    print('Init build');
-
+    
     return Scaffold(
       backgroundColor: Colors.grey[200],
       appBar: AppBar(
